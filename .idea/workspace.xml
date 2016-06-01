@@ -15,6 +15,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PythonCodes$swapcase.coverage" NAME="swapcase Coverage Results" MODIFIED="1464735463914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonCodes$add_binary.coverage" NAME="add_binary Coverage Results" MODIFIED="1464760071253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonCodes$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1464738097913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonCodes$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1464735069885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonCodes$longest_palindromic_substring.coverage" NAME="longest_palindromic_substring Coverage Results" MODIFIED="1464755555073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,16 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="combinations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combinations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="swapcase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swapcase.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,11 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="longest_palindromic_substring.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="longest_palindromic_substring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/longest_palindromic_substring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76616913">
-              <caret line="37" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_binary.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_binary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -167,6 +168,7 @@
         <option value="$PROJECT_DIR$/compare_version.py" />
         <option value="$PROJECT_DIR$/PrettyPrint.py" />
         <option value="$PROJECT_DIR$/longest_palindromic_substring.py" />
+        <option value="$PROJECT_DIR$/add_binary.py" />
       </list>
     </option>
   </component>
@@ -252,25 +254,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.longest_palindromic_substring">
-    <configuration default="false" name="palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodes" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.add_binary">
     <configuration default="false" name="palindrom2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,6 +323,24 @@
       <module name="PythonCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longest_palindromic_substring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="add_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodes" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_binary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -537,19 +539,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.palindrome" />
-      <item index="1" class="java.lang.String" itemvalue="Python.palindrom2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.haystack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.compare_version" />
-      <item index="4" class="java.lang.String" itemvalue="Python.longest_palindromic_substring" />
+      <item index="0" class="java.lang.String" itemvalue="Python.palindrom2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.haystack" />
+      <item index="2" class="java.lang.String" itemvalue="Python.compare_version" />
+      <item index="3" class="java.lang.String" itemvalue="Python.longest_palindromic_substring" />
+      <item index="4" class="java.lang.String" itemvalue="Python.add_binary" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.longest_palindromic_substring" />
-        <item index="1" class="java.lang.String" itemvalue="Python.compare_version" />
-        <item index="2" class="java.lang.String" itemvalue="Python.haystack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.palindrom2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.palindrome" />
+        <item index="0" class="java.lang.String" itemvalue="Python.add_binary" />
+        <item index="1" class="java.lang.String" itemvalue="Python.longest_palindromic_substring" />
+        <item index="2" class="java.lang.String" itemvalue="Python.compare_version" />
+        <item index="3" class="java.lang.String" itemvalue="Python.haystack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.palindrom2" />
       </list>
     </recent_temporary>
   </component>
@@ -816,8 +818,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/longest_palindromic_substring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76616913">
-          <caret line="37" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
