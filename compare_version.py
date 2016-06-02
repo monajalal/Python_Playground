@@ -32,7 +32,7 @@ class Solution:
                 else:
                     return -1
             else:
-                return self.compareVersion("".join(version_list_A), "".join(version_list_B[:len(version_list_A)]))
+                return self.compareVersion(".".join(version_list_A), ".".join(version_list_B[:len(version_list_A)]))
         # 1.4.6 > 1.4
         if len(version_list_A) > len(version_list_B):
             if version_list_A[:len(version_list_B)]==version_list_B:
@@ -41,11 +41,11 @@ class Solution:
                 else:
                     return 1
             else:
-                return self.compareVersion("".join(version_list_A[:len(version_list_B)]), "".join(version_list_B))
+                return self.compareVersion(".".join(version_list_A[:len(version_list_B)]), ".".join(version_list_B))
 
 
 
 s = Solution()
-print(s.compareVersion("1.0.9", "2.0.0"))
+print(s.compareVersion("7611096.45.537.4", "6.1905074"))
 
 
