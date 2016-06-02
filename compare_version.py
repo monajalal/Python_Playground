@@ -46,4 +46,6 @@ class Solution:
 
 
 s = Solution()
-print(s.compareVersion("1.12", "2.0.0"))
+print(s.compareVersion("1.0.9", "2.0.0"))
+
+
