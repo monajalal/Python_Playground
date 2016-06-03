@@ -40,10 +40,10 @@ print(re.findall(r'[trehous]{9}', names, re.I))
 # Example:
 # >>> find_email("kenneth.love@teamtreehouse.com, @support, ryan@teamtreehouse.com, test+case@example.co.uk")
 # ['kenneth@teamtreehouse.com', 'ryan@teamtreehouse.com', 'test@example.co.uk']
-def find_emails(string):
-    return re.findall(r'[\w\d+-_.]+@[\w\d+-_.]+', string)
 
-print(find_emails(names))
+
+
+
 print(re.findall(r'''
                   \b@
                   [\w\d+-.]*
@@ -58,3 +58,75 @@ print(re.findall(r'''
                  [^\t\n]
                  ''', names, re.X|re.I))
 
+
+string = 'Perotto, Pier Giorgio'
+names = re.match(r'''
+                 [-\w ]+, #first name
+                 \s
+                 [-\w ]+ #last name
+                 ''',string, re.X|re.M)
+
+print(names)
+
+string = 'Perotto, Pier Giorgio'
+names = re.findall(r'''
+                 (?P<first>[-\w ]+),\s #first name
+                 (?P<last> [-\w ]+) #last name
+                 ''',string, re.X|re.M)
+
+print(names)
+
+string = '''Love, Kenneth, kenneth+challenge@teamtreehouse.com, 555-555-5555, @kennethlove
+Chalkley, Andrew, andrew@teamtreehouse.co.uk, 555-555-5556, @chalkers
+McFarland, Dave, dave.mcfarland@teamtreehouse.com, 555-555-5557, @davemcfarland
+Kesten, Joy, joy@teamtreehouse.com, 555-555-5558, @joykesten'''
+
+contacts = re.search(r'''
+                    (?P<email>[-\w+.]*@[-\w+.]+),
+                    \s
+                    (?P<phone>\d{3}-\d{3}-\d{4})
+                     ''', string, re.X|re.M)
+
+print(contacts)
+
+twitters = re.search(r'''
+                    (?P<handle>@[\w\d]+)$
+                    ''', string, re.X|re.M)
+
+print(twitters)
+
+pattern = re.compile(r'''
+                    (?P<handle>@[\w\d]+)$
+                    ''', re.X|re.M)
+
+print(re.search(pattern, string).groupdict())
+
+def find_words2(count, string):
+    return re.findall(r'\w' * count + r'\w*', string)
+
+print(find_words2(3, "mona is a gooood girl"))
+
+string = '''Love, Kenneth: 20
+Chalkley, Andrew: 25
+McFarland, Dave: 10
+Kesten, Joy: 22
+Stewart Pinchback, Pinckney Benton: 18'''
+
+players = re.search(r'''
+                     ^(?P<last_name>[-\w ]+),\s
+                     (?P<first_name>[-\w ]+):\s
+                     (?P<score>[\d]+)$
+                     ''', string, re.M|re.X)
+print(players)
+print(players.groupdict())
+
+def find_emails(string):
+    return re.findall(r'[+\w.]*@[+\w.]+', string)
+
+string = ''' De la Sota: Hello
+
+Guini: Hello
+
+Prat Gay: Hello
+'''
+print(re.findall(r'[-\w ]+[^:\sHelo]', string))
