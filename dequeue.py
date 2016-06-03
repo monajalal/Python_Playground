@@ -20,7 +20,7 @@ class Dequeue():
 
     def remove_rear(self):
         return self.items.pop(0)
-
+"""
 dequeue = Dequeue()
 print(dequeue.is_empty())
 dequeue.add_front("mona")
@@ -31,3 +31,4 @@ print(dequeue.get_size())
 print(dequeue.remove_front())
 print(dequeue.remove_rear())
 
+"""
