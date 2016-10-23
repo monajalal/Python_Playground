@@ -24,3 +24,8 @@ def replace_char(string, index, char):
 print(replace_char(string2, index, char))
 """
 
+st1 = "___Heloo___world______"
+st1_arr = st1.split('_')
+for item in st1_arr:
+    print(item, end=' ')
+
