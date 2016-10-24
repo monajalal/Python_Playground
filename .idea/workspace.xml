@@ -10,21 +10,7 @@
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IntelliJIdea15/options/runner.layout.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IntelliJIdea15/options/security.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IntelliJIdea15/options/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Google_trends.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlp_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/os_sys_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plotly_viz.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_dict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy_playground.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlite_xml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_dump.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/urlib2_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/valid_parentheses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonCodes.iml" afterPath="$PROJECT_DIR$/.idea/PythonCodes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/string_playground.py" afterPath="$PROJECT_DIR$/string_playground.py" />
     </list>
     <ignored path="PythonCodes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -746,7 +732,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="letZ codeZ" />
-    <option name="LAST_COMMIT_MESSAGE" value="letZ codeZ" />
+    <MESSAGE value="letZ FiXz git commit lock in PyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="letZ FiXz git commit lock in PyCharm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
