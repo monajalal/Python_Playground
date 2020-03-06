@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d60b339-a759-4942-bfb1-dae5414c55bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlphabetSoup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArithGeo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LetterCapitalize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleSymbols.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fibo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/power.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonCodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonCodes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9d60b339-a759-4942-bfb1-dae5414c55bf" name="Default" comment="" />
     <ignored path="PythonCodes.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -111,14 +101,15 @@
     <session id="-623513163">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -619,7 +610,7 @@
   <component name="ToolWindowManager">
     <frame x="20" y="23" width="1420" height="819" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26124817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26487663" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -631,7 +622,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.48555708" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32737276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32737276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -641,7 +632,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" x="0" y="0" width="305" height="619" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32946298" />
+      <window_info anchor="right" x="0" y="0" width="305" height="619" id="Documentation" order="5" side_tool="true" visible="true" weight="0.3287373" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
