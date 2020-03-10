@@ -7,7 +7,7 @@ class Node:
 
     def insert(self, data):
         # don't allow duplicates in the tree
-
+        #print("self val {} and data {} ".format(self.val, data))
         if self.val == int(data):
             return False
         elif self.val > int(data):
@@ -44,22 +44,26 @@ class Node:
     def inorder(self):
         if self:
             if self.left:
-                self.inorder(self.left)
-            print(str(self.data))
+                self.left.inorder()
+            print(str(self.val))
             if self.right:
-                self.inorder(self.right)
+                self.right.inorder()
 
     def postorder(self):
         if self:
-            self.postorder(self.left)
-            self.postorder(self.right)
-            print(str(self.data))
+            if self.left:
+                self.left.postorder()
+            if self.right:
+                self.right.postorder()
+            print(str(self.val))
 
     def preorder(self):
         if self:
-            print(str(self.data))
-            self.preorder(self.left)
-            self.preorder(self.left)
+            print(str(self.val))
+            if self.left:
+                self.left.preorder()
+            if self.right:
+                self.right.preorder()
 
 
 class Tree:
@@ -80,24 +84,32 @@ class Tree:
             return False
 
     def preorder(self):
+        print("preorder traversal of a BST tree")
         if self.root:
             self.root.preorder()
 
     def inorder(self):
+        print("inorder traversal of a BST tree")
         if self.root:
             self.root.inorder()
 
     def postorder(self):
+        print("postorder traversal of a BST tree")
         if self.root:
             self.root.postorder()
 
 
 bst = Tree()
 bst.insert(1)
+#print(n1)
 bst.insert(2)
 bst.insert(3)
 bst.insert(4)
 bst.insert(5)
-bst.insert(6)
-print(bst.insert(15))
+#print(bst.insert(6))
+#print(bst.insert(15))
+
 bst.inorder()
+bst.postorder()
+bst.preorder()
+
